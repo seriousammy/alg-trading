@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "algorithmic-trading-machine-learning"
+version = "0.1.0"
+description = ""
+authors = ["Sam L <sam019@hotmail.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+statsmodels = "^0.14.2"
+pandas-datareader = "^0.10.0"
+matplotlib = "^3.9.0"
+pandas = "^2.2.2"
+yfinance = "^0.2.40"
+pandas-ta = "^0.3.14b0"
+jupyter = "^1.0.0"
+scikit-learn = "^1.4.2"
+pyportfolioopt = "^1.5.5"
+backtesting = "^0.3.3"
+backtrader = "^1.9.78.123"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
